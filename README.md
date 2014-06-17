@@ -1,4 +1,83 @@
-markdown-style-guide
+Markdown Style Guide
 ====================
 
-Standard-issue standards issued.
+> Markdown is not a replacement for HTML, or even close to it. Its syntax is
+> very small, corresponding only to a very small subset of HTML tags. The idea
+> is *not* to create a syntax that makes it easier to insert HTML tags. In my
+> opinion, HTML tags are already easy to insert. The idea for Markdown is to
+> make it easy to read, write, and edit prose. HTML is a *publishing* format;
+> Markdown is a *writing* format.
+
+— [Markdown Syntax Documentation][markdown-syntax]
+
+
+Headings
+--------
+
+-  Underline `h1` elements using equals signs `=`
+-  Underline `h2` elements using hyphens `-`
+-  Use two blank new lines to separate `h2` elements from earlier content
+-  Use multiple hashes `#` for `h3` through `h6`
+-  Use a single blank new line after all headings
+
+```
+This is an h1
+=============
+
+
+This is an h2
+-------------
+
+### h3
+
+#### h4
+
+##### h5
+
+###### h6
+```
+
+
+Lists
+-----
+
+-  Use hyphens `-` for unordered list items
+-  Use numbers followed by periods `1.` for ordered list items
+-  Don't wrap text in list items
+
+```
+-  This is an unordered list item
+  -  This is a nested unordered list item
+-  This is an unordered list item
+  1. This is an ordered list item
+```
+
+
+Links
+-----
+
+-  Label all links at the bottom of the Markdown file.
+-  Use only lowercase letters when labeling links.
+-  Use hyphens to separate words in a link label.
+
+```
+This paragraph contains a link to a related article.
+
+[csstricks-prefill-forms]: http://css-tricks.com/prefill-forms-dev/
+```
+
+
+Special Characters
+------------------
+
+
+HTML
+----
+
+> For any markup that is not covered by Markdown's syntax, you simply use HTML
+> itself. There's no need to preface it or delimit it to indicate that you're
+> switching from Markdown to HTML; you just use the tags.
+
+— [Markdown Syntax Documentation][markdown-syntax]
+
+[markdown-syntax]: http://daringfireball.net/projects/markdown/syntax
