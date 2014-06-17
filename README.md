@@ -11,6 +11,17 @@ Markdown Style Guide
 — [Markdown Syntax Documentation][markdown-syntax]
 
 
+Document Structure
+------------------
+
+Markdown documents should follow the following structure:
+
+1. YAML front matter
+2. Content
+3. Image label definitions
+4. Link label definitions
+
+
 Headings
 --------
 
