@@ -71,11 +71,11 @@ Links
 -  Use only lowercase letters when labeling links.
 -  Use hyphens to separate words in a link label.
 
-```
-This paragraph contains a link to a related article.
+<!-- The following code block is indented to prevent link label definitions from being parsed literally. Use the backtick syntax for all other code blocks. -->
 
-[csstricks-prefill-forms]: http://css-tricks.com/prefill-forms-dev/
-```
+	This paragraph contains a link to a CSS-Tricks [blog post][csstricks-prefill-forms].
+
+	[csstricks-prefill-forms]: http://css-tricks.com/prefill-forms-dev/
 
 
 Special Characters
