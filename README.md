@@ -18,8 +18,8 @@ Markdown documents should follow the following structure:
 
 1. YAML front matter
 2. Content
-3. Image label definitions
-4. Link label definitions
+3. Link label definitions
+4. Image label definitions
 
 
 Headings
@@ -65,7 +65,6 @@ Lists
   1. This is an ordered list item
 ```
 
-
 Links
 -----
 
@@ -78,6 +77,21 @@ Links
 	This paragraph contains a link to a CSS-Tricks [blog post][csstricks-prefill-forms].
 
 	[csstricks-prefill-forms]: http://css-tricks.com/prefill-forms-dev/
+
+
+Images
+------
+
+-  Label all images beneath the document's content.
+-  Use only lowercase letters when labeling images.
+-  Use hyphens to separate words in an image label.
+
+<!-- The following code block is indented to prevent iamge label definitions from being parsed literally. Use the backtick syntax for all other code blocks. -->
+
+	Check out this sweet GIF:
+	![Coding in a nutshell][gif-coding]
+
+	[gif-coding]: http://gificiency.com/m/codinginanutshell.gif
 
 
 HTML
