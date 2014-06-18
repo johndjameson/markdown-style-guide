@@ -53,7 +53,9 @@ Lists
 -----
 
 -  Use hyphens `-` for unordered list items
+   -  Insert two spaces following hyphens
 -  Use numbers followed by periods `1.` for ordered list items
+   -  Insert a single space following periods
 -  Don't wrap text in list items
 
 ```
@@ -80,6 +82,8 @@ Links
 
 Special Characters
 ------------------
+
+
 
 
 HTML
