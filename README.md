@@ -65,6 +65,23 @@ Lists
   1. This is an ordered list item
 ```
 
+
+Blockquotes
+-----------
+
+-  Wrap lines at 80 characters
+-  Use a "greater than" character `>` to begin each line
+-  Place attribution following the blockquote after one blank new line.
+
+```
+> If you copy an entire article from this site and republish it on your own
+> site like you wrote it, that's a little uncool. I won't be mad at you for
+> stealing, I just think you're better than that and want to see you do better.
+
+— [CSS-Tricks License][csstricks-license]
+```
+
+
 Links
 -----
 
