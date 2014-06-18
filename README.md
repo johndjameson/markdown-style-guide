@@ -16,20 +16,20 @@ Document Structure
 
 Markdown documents should follow the following structure:
 
-1. YAML front matter
-2. Content
-3. Link label definitions
-4. Image label definitions
+1.  YAML front matter
+2.  Content
+3.  Link label definitions
+4.  Image label definitions
 
 
 Headings
 --------
 
--  Underline `h1` elements using equals signs `=`
--  Underline `h2` elements using hyphens `-`
--  Use two blank new lines to separate `h2` elements from earlier content
--  Use multiple hashes `#` for `h3` through `h6`
--  Use a single blank new line after all headings
+-   Underline `h1` elements using equals signs `=`
+-   Underline `h2` elements using hyphens `-`
+-   Use two blank new lines to separate `h2` elements from earlier content
+-   Use multiple hashes `#` for `h3` through `h6`
+-   Use a single blank new line after all headings
 
 ```
 This is an h1
@@ -52,26 +52,27 @@ This is an h2
 Lists
 -----
 
--  Use hyphens `-` for unordered list items
-   -  Insert two spaces following hyphens
--  Use numbers followed by periods `1.` for ordered list items
-   -  Insert a single space following periods
--  Don't wrap text in list items
+-   Use hyphens `-` for unordered list items
+    -   Insert three spaces following hyphens
+-   Use numbers followed by periods `1.` for ordered list items
+    -   Insert two spaces following periods
+-   Don't wrap text in list items
 
 ```
--  This is an unordered list item
-  -  This is a nested unordered list item
--  This is an unordered list item
-  1. This is an ordered list item
+-   This is an unordered list item
+    -   This is a nested unordered list item
+-   This is an unordered list item
+    1.  This is an ordered list item
 ```
 
 
 Blockquotes
 -----------
 
--  Wrap lines at 80 characters
--  Use a "greater than" character `>` to begin each line
--  Place attribution following the blockquote after one blank new line.
+-   Wrap lines at 80 characters
+-   Use a "greater than" character `>` to begin each line
+    -   Insert a single space following each "greater than" character
+-   Place attribution following the blockquote after one blank new line.
 
 ```
 > If you copy an entire article from this site and republish it on your own
@@ -85,30 +86,30 @@ Blockquotes
 Links
 -----
 
--  Label all links at the bottom of the Markdown file.
--  Use only lowercase letters when labeling links.
--  Use hyphens to separate words in a link label.
+-   Label all links at the bottom of the Markdown file.
+-   Use only lowercase letters when labeling links.
+-   Use hyphens to separate words in a link label.
 
 <!-- The following code block is indented to prevent link label definitions from being parsed literally. Use the backtick syntax for all other code blocks. -->
 
-	This paragraph contains a link to a CSS-Tricks [blog post][csstricks-prefill-forms].
+    This paragraph contains a link to a CSS-Tricks [blog post][csstricks-prefill-forms].
 
-	[csstricks-prefill-forms]: http://css-tricks.com/prefill-forms-dev/
+    [csstricks-prefill-forms]: http://css-tricks.com/prefill-forms-dev/
 
 
 Images
 ------
 
--  Label all images beneath the document's content.
--  Use only lowercase letters when labeling images.
--  Use hyphens to separate words in an image label.
+-   Label all images beneath the document's content.
+-   Use only lowercase letters when labeling images.
+-   Use hyphens to separate words in an image label.
 
 <!-- The following code block is indented to prevent iamge label definitions from being parsed literally. Use the backtick syntax for all other code blocks. -->
 
-	Check out this sweet GIF:
-	![Coding in a nutshell][gif-coding]
+    Check out this sweet GIF:
+    ![Coding in a nutshell][gif-coding]
 
-	[gif-coding]: http://gificiency.com/m/codinginanutshell.gif
+    [gif-coding]: http://gificiency.com/m/codinginanutshell.gif
 
 
 HTML
