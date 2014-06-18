@@ -80,12 +80,6 @@ Links
 	[csstricks-prefill-forms]: http://css-tricks.com/prefill-forms-dev/
 
 
-Special Characters
-------------------
-
-
-
-
 HTML
 ----
 
