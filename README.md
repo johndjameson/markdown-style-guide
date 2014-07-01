@@ -3,8 +3,8 @@ Markdown Style Guide
 
 > Markdown is not a replacement for HTML, or even close to it. Its syntax is
 > very small, corresponding only to a very small subset of HTML tags.&hellip;The idea for Markdown is to
-> make it easy to read, write, and edit prose. HTML is a *publishing* format;
-> Markdown is a *writing* format.
+> make it easy to read, write, and edit prose. HTML is a _publishing_ format;
+> Markdown is a _writing_ format.
 
 — [Markdown Syntax Documentation][markdown-syntax]
 
@@ -57,6 +57,23 @@ Lists
 - This is an unordered list item
   1. This is an ordered list item
 ```
+
+Code Blocks
+-----------
+
+- Identify a code block by using triple backticks <code>&#96;&#96;&#96;</code>
+- Label the code block language (if using a compatible code highlighter)
+
+<!-- The following code block is indented to prevent backticks from being parsed literally. Use the backtick syntax for all other code blocks. -->
+
+    ```sass
+      .card
+        background: $c-background-invert
+        border-radius: $b-borderRadius
+        box-shadow: $b-boxShadow
+        padding: $b-space
+        position: relative
+    ```
 
 Blockquotes
 -----------
