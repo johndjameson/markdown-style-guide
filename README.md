@@ -91,6 +91,24 @@ Blockquotes
 — [CSS-Tricks License][csstricks-license]
 ```
 
+Emphasis
+--------
+
+- Use underscores `_` to emphasize inline text
+
+```markdown
+One of these words has _stress_ emphasis.
+```
+
+Strong
+------
+
+- Use double asterisks `**` to strengthen inline text
+
+```markdown
+One of these words has **strong** importance.
+```
+
 Links
 -----
 
