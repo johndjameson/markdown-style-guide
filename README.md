@@ -48,7 +48,7 @@ Lists
 
 - Use hyphens `-` for unordered list items
 - Use numbers followed by periods `1.` for ordered list items
-- Insert a single space following list items
+- Insert a single space following list item markers
 - Don't wrap text inside list items
 
 ```
