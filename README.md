@@ -23,7 +23,6 @@ Headings
 
 - Underline `h1` elements using equals signs `=`
 - Underline `h2` elements using hyphens `-`
-- Use two blank new lines to separate `h2` elements from earlier content
 - Use multiple hashes `#` for `h3` through `h6`
 - Use a single blank new line after all headings
 
